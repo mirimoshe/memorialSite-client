@@ -1,0 +1,92 @@
+.add-body {
+    background: #161623;
+    height: 85vh;
+
+}
+
+.add_content {
+    /* background: rgb(0, 208, 255);*/
+    height: 30vh;
+    width: 55vh;
+    float: right;
+    margin-top: 15vh;
+    margin-right: 20vh;
+    direction: rtl;
+    color: #fff;
+
+}
+
+.add_content h2 {
+    /* background: rebeccapurple;*/
+    direction: rtl;
+    padding: 5px;
+
+}
+
+
+
+/*.add_content p {
+    background: green;
+    direction: rtl;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-left: 1px solid;
+}*/
+
+.add_page_example {
+    /*background: rgb(0, 208, 255);*/
+    height: 62vh;
+    width: 50vh;
+    float: left;
+    transform: translateY(-2%);
+    margin-left: 15vh;
+    background-image: url('../images/addDeceaedPage.png');
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 10vh;
+}
+
+.add_page_example:hover {
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+#add-pop {
+    width: 70vh;
+    height: 85vh;
+    background: #fff;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+    /* Smooth opacity transition */
+
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: 0.8s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+    .add-body {
+        height: 110vh;
+        flex-direction: column;
+    }
+}

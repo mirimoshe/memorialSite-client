@@ -1,0 +1,65 @@
+/*#app {
+    height: 100%
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}*/
+
+.body-slider {
+    position: relative;
+    height: 100%;
+    background: #161623;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background: #161623;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    
+}
+
+.single-img{
+    transform: translate(7%,0%);
+    width:350px;
+    height:350px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+.single-img img{
+    border-radius: 10px;
+}

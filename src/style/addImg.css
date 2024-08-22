@@ -1,0 +1,17 @@
+#btn-addimg {
+    margin: 3px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background: #161623cd;
+}
+#btn-addimg:hover{
+    background: #1d1d2ebd;
+}
+.addImg{
+    height: 50px;
+    width: auto;
+}

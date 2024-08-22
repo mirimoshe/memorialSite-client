@@ -1,0 +1,142 @@
+.container_search_homePage {
+    height: 65vh;
+   /*background-image: url('../images/israeli-girl-flag.png');*/
+   background-color: #161623;
+    background-size: auto;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* background-attachment: fixed;*/
+}
+.container_title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18vh;
+    margin-left: 19vh;
+    width: fit-content;
+}
+.title{
+    width: 30vh;
+    font-size: 29px;
+    font-weight: bold;
+    /*background-color: brown;*/
+    height: 12vh;
+    word-wrap: break-word;
+    overflow: hidden;
+    direction: rtl;
+    margin: 3px;
+    color: rgba(255, 255, 255, 0.4);
+    animation: showTitle1 1s ease-in-out;
+}
+@keyframes showTitle1 {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.line{
+    background-color: rgb(242, 238, 17);
+    width: 5px;
+    margin: 3px;
+    border-radius: 15px;
+   /* animation: reveal 1s linear forwards ;*/
+}
+/*@keyframes reveal {
+    0%{
+        height: 0vh;
+        width: 0px;
+    }
+    50%{
+        height: 8vh;
+        width: 3px;
+    }
+    100%{
+        height: 12vh;
+        width: 5px;
+    }
+}*/
+.detailes{
+    /*background-color: aqua;*/
+    margin: 3px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: large;
+    animation: showTitle2 1s ease-in-out;
+    
+}
+@keyframes showTitle2 {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/*.container_title {
+    height: 45vh;
+    background-color: rgba(252, 252, 252, 0);
+    width: 90vh;
+    margin-right: 15vh;
+    margin-top: 8vh;
+    float: inline-end;
+    direction: rtl;
+    color: rgb(6, 6, 105);
+
+}
+
+
+h1{
+    font-size: 5em;
+    font-weight: 500;
+    color: #1d0658;
+    letter-spacing: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+h1 span{
+    transition: 0.5s;
+}
+h1:hover span:nth-child(1){
+    margin-left: 10px;
+}
+h1:hover span:nth-child(2){
+    margin-right: 40px;
+}
+h1:hover span{
+    color:#fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 160px #fff,
+                 
+}*/
+
+/*.container-deathday {
+    height: 50vh;
+    background-color: rgb(10, 43, 174);
+    /* box-shadow: 0 0 80px 85px rgb(10, 43, 174);
+}*/
+
+.container-deceasedes {
+    height: 12vh;
+    background-color: #161623;
+}
+
+.container-deceasedes>* {
+    float: left;
+}
